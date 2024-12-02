@@ -1,0 +1,100 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Neuropool X', Arial, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #e2c597;
+}
+
+/* Home Link Section */
+.home {
+    padding: 20px;
+    background-color: #e9d7b9;
+    border-bottom: 1px solid #f8f3f4;
+    text-align: left;
+}
+
+.home-link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #ff4656;
+    font-weight: bold;
+    border: 2px solid #ff4656;
+    padding: 8px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.home-link:hover {
+    background-color: #ff4656;
+    color: #fff;
+}
+
+/* Main Container */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centers content vertically */
+    padding: 50px;
+    gap: 20px;
+}
+
+/* Text Section */
+.text-section {
+    width: 50%;
+}
+
+.text-section h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #101820;
+    margin-bottom: 20px;
+}
+
+.text-section h3 {
+    font-size: 7rem;
+    margin-bottom: 15px;
+    color: #ff4656;
+}
+
+.text-section p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.text-section button {
+    background-color: #ff4656;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.text-section button:hover {
+    background-color: #e03b47;
+}
+
+/* Video Section */
+.video-section {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centers the video vertically */
+}
+
+.video-section video {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+} 

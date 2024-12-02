@@ -1,0 +1,114 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #111;
+    color: #fff;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #000;
+  }
+  
+  header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+  }
+  
+  header nav ul li {
+    display: inline;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header .search {
+    display: flex;
+    gap: 5px;
+  }
+  
+  header .search input {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  header .search button {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+
+
+
+  main .grid {
+    background-color: #222;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .col {
+    float: left;
+    width: 48%;
+    padding: 5px;
+    margin-left: 9px;
+  }
+
+  img {
+    width: 100%;
+    background-image: url(main2.html);
+  }
+
+  
+
+  
+  
+  
+  .grid h2 {
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+/*
+  main .LOL {
+    width: 500px;
+    margin: 5px;
+  }
+
+  main .Val {
+    width: 500px;
+    margin: 5px;
+  }
+
+  main .TTac {
+    width: 500px;
+    margin: 5px;
+  }
+
+  main .WR {
+    width: 500px;
+    margin: 5px;
+  }
+  */
+  footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #000;
+    font-size: 0.8rem;
+  }
+  
+  
